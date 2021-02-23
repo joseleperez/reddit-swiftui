@@ -4,4 +4,10 @@
    <FileRef
       location = "container:Reddit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Reddit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
