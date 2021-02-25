@@ -6,6 +6,7 @@ target 'Reddit' do
   use_frameworks!
   pod 'Analytics', '~> 4.1'
   pod 'Trackingplan', :path => '/Users/joseleperez/Projects/tp_ios_samples/trackingplan-ios/'
+  
   # Pods for Reddit
 
 end

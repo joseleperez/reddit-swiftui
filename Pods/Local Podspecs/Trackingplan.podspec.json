@@ -22,6 +22,9 @@
   "dependencies": {
     "NetworkInterceptor": [
       "0.0.8"
+    ],
+    "SwiftyJSON": [
+      "~> 4.0"
     ]
   }
 }

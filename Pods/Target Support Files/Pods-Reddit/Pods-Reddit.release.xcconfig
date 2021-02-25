@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Analytics" "${PODS_CONFIGURATION_BUILD_DIR}/GzipSwift" "${PODS_CONFIGURATION_BUILD_DIR}/NetworkInterceptor" "${PODS_CONFIGURATION_BUILD_DIR}/Trackingplan" "${PODS_CONFIGURATION_BUILD_DIR}/URLRequest-cURL"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Analytics" "${PODS_CONFIGURATION_BUILD_DIR}/GzipSwift" "${PODS_CONFIGURATION_BUILD_DIR}/NetworkInterceptor" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/Trackingplan" "${PODS_CONFIGURATION_BUILD_DIR}/URLRequest-cURL"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Analytics/Segment.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GzipSwift/Gzip.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NetworkInterceptor/NetworkInterceptor.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Trackingplan/Trackingplan.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/URLRequest-cURL/URLRequest_cURL.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Analytics/Segment.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GzipSwift/Gzip.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NetworkInterceptor/NetworkInterceptor.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Trackingplan/Trackingplan.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/URLRequest-cURL/URLRequest_cURL.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -ObjC -l"z" -framework "Gzip" -framework "NetworkInterceptor" -framework "Segment" -framework "Trackingplan" -framework "URLRequest_cURL"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"z" -framework "Gzip" -framework "NetworkInterceptor" -framework "Segment" -framework "SwiftyJSON" -framework "Trackingplan" -framework "URLRequest_cURL"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

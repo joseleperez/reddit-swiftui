@@ -4,8 +4,10 @@ PODS:
   - NetworkInterceptor (0.0.8):
     - GzipSwift
     - URLRequest-cURL
+  - SwiftyJSON (4.3.0)
   - Trackingplan (0.0.1):
     - NetworkInterceptor (= 0.0.8)
+    - SwiftyJSON (~> 4.0)
   - URLRequest-cURL (0.0.3):
     - GzipSwift
 
@@ -18,6 +20,7 @@ SPEC REPOS:
     - Analytics
     - GzipSwift
     - NetworkInterceptor
+    - SwiftyJSON
     - URLRequest-cURL
 
 EXTERNAL SOURCES:
@@ -28,9 +31,10 @@ SPEC CHECKSUMS:
   Analytics: 4c01e3e19d4be86705bad6581a1c2aa5a15a9d22
   GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
   NetworkInterceptor: 711ba8988a2200937e89a12da7fcd8cb28930e91
-  Trackingplan: 0baba65fd33882790e3331461956b471e06be55e
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Trackingplan: fd2b668c56923c19f8deedf7ce6846c349400efa
   URLRequest-cURL: b159525e416ead3133ae60450660b8c82d2f2aa0
 
-PODFILE CHECKSUM: aa400f5f5147d188c097571142fc2faf71eb1f3a
+PODFILE CHECKSUM: 11cb315d27d3c78906c716d7fe5696908ed856aa
 
 COCOAPODS: 1.10.1

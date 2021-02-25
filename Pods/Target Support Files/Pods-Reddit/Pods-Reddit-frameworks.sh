@@ -177,12 +177,14 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GzipSwift/Gzip.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NetworkInterceptor/NetworkInterceptor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Trackingplan/Trackingplan.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/URLRequest-cURL/URLRequest_cURL.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GzipSwift/Gzip.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NetworkInterceptor/NetworkInterceptor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Trackingplan/Trackingplan.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/URLRequest-cURL/URLRequest_cURL.framework"
 fi
