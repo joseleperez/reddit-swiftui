@@ -8,6 +8,7 @@
 
 import UIKit
 import Segment
+import Trackingplan
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,12 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+        Trackingplan.init(tpId: "zara-ios-test", options: ["debug": true, "customDomains": ["QUE SI":"OSTIA"]]).start()
         /* SEGMENT */
         let configuration = AnalyticsConfiguration(writeKey: "TQHbZAb7BTraz6GdghSGaeOTSmcoJ38b")
         configuration.trackApplicationLifecycleEvents = true // Enable this to record certain application events automatically!
         configuration.recordScreenViews = true // Enable this to record screen views automatically!
-        Analytics.debug(true)
+        //Analytics.debug(true)
         Analytics.setup(with: configuration)
         /* SEGMENT BLOCK END */
         

@@ -1,16 +1,36 @@
 PODS:
   - Analytics (4.1.3)
+  - GzipSwift (5.1.1)
+  - NetworkInterceptor (0.0.8):
+    - GzipSwift
+    - URLRequest-cURL
+  - Trackingplan (0.0.1):
+    - NetworkInterceptor (= 0.0.8)
+  - URLRequest-cURL (0.0.3):
+    - GzipSwift
 
 DEPENDENCIES:
   - Analytics (~> 4.1)
+  - Trackingplan (from `/Users/joseleperez/Projects/tp_ios_samples/trackingplan-ios/`)
 
 SPEC REPOS:
   trunk:
     - Analytics
+    - GzipSwift
+    - NetworkInterceptor
+    - URLRequest-cURL
+
+EXTERNAL SOURCES:
+  Trackingplan:
+    :path: "/Users/joseleperez/Projects/tp_ios_samples/trackingplan-ios/"
 
 SPEC CHECKSUMS:
   Analytics: 4c01e3e19d4be86705bad6581a1c2aa5a15a9d22
+  GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
+  NetworkInterceptor: 711ba8988a2200937e89a12da7fcd8cb28930e91
+  Trackingplan: 0baba65fd33882790e3331461956b471e06be55e
+  URLRequest-cURL: b159525e416ead3133ae60450660b8c82d2f2aa0
 
-PODFILE CHECKSUM: 8a1192e5f9ad5648f671edafe0936edf216ffbf6
+PODFILE CHECKSUM: aa400f5f5147d188c097571142fc2faf71eb1f3a
 
 COCOAPODS: 1.10.1
